@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root{
+--cor-primaria: #B0DAFF; 
+--cor-secundaria: #31373ada; 
+--cor-terciaria: #554d4d;
+
+--fonte-primaria: 'Krona One', sans-serif;
+--fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* height: 100vh; */
+    box-sizing: border-box;
+    margin-left: 220px;
+    background-image: linear-gradient(to bottom, #BE93C5, #7BC6CC);
+    color: var(--cor-secundaria);
+}
+
+
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 70px; 
+    
+}
+
+.cabecalho__menu__link{
+
+    display: flex;
+    justify-content: center;
+    border: 2px solid #554d4d;
+    width: 12%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 120%;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao__imagem {
+    width: 50%;
+    border-radius: 10%;
+    margin-top: 8%;
+}
+
+
+nav :hover{
+background-color: #dee4dd;
+    color: var(--cor-terciaria);
+}
+
+a :hover{
+    background-color: #dee4dd;
+    color: var(--cor-terciaria);
+}
+ article :hover{
+    background-color: #dee4dd;
+    color: var(--cor-terciaria);
+}
+
+
+
+.titulo-destaque{
+color: var(--cor-terciaria);
+}
+
+.apresentacao{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+.apresentacao__conteudo{
+    width: 120%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    margin-top: 100px;
+    color:#0696e9c9;
+    
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 1.5rem; /*dividindo o valor de px por 16, o numero sera em rem, onde o
+     usuario ao modificar qualquer tamanho de tela ou letra, o sistema html se adequa*/
+    font-family: var(--fonte-secundaria);
+    margin-bottom: 5%;
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+
+
+
+.apresentacao__links__subtitulos{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
+
+.apresentacao__links__navegacao {
+    /* background-color: #22D4FD; */
+    display: flex;
+    justify-content: center;
+    border: 2px solid #554d4d;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 120%;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+}
+
+
+
+
+.text{
+    font-size: 120%;
+    font-family: var(--fonte-secundaria);
+    margin: 5% 20%;
+    margin-top: 10%;
+}
+
+h2{
+    font-size: 180%;
+    font-family: var(--fonte-secundaria);
+    margin-left: 30%;
+    margin-bottom: 5%;
+
+}
+.sobremim__imagem{
+    width: 30%;
+    padding: 10px;
+    border-top-left-radius: 10%;
+   
+}
+
+
+    
+
+    .rodape {
+        padding: 2px;
+        color: var(--cor-primaria);
+        text-align: center;
+        font-family: var(--fonte-secundaria);
+        font-size: 1.5rem;
+        font-weight: 400;
+  }
+
+
+
+
+
+
